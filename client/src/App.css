@@ -1,0 +1,30 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f7fafd;
+}
+
+.main-container {
+  flex: 1;
+  padding: 2rem 3rem;
+  background: #f7fafd;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.main-container h1 {
+  font-size: 2rem;
+  color: #1e293b;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    padding: 1rem;
+  }
+}
